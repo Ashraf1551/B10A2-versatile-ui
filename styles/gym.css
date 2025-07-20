@@ -78,6 +78,10 @@
   color: white;
 }
 
+.menu-icon {
+  display: none;
+}
+
 /* Banner */
 .banner {
   display: flex;
@@ -150,9 +154,9 @@
 }
 
 .golla {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
   background: #e6533c;
 }
 
@@ -164,4 +168,27 @@
 .banner-img p {
   color: rgba(255, 255, 255, 0.65);
   font-size: 0.8rem;
+}
+
+/* media query */
+@media screen and (max-width: 576px) {
+  .nav-items {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    color: white;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .nav-bar {
+    padding: 10px 20px;
+  }
+
+  #download-btn {
+    margin-left: 0;
+  }
 }
