@@ -184,11 +184,16 @@
     flex-direction: column;
   }
 
-  .nav-bar {
-    padding: 10px 20px;
+  #download-btn {
+    margin-left: none;
   }
 
-  #download-btn {
-    margin-left: 0;
+  #box-top {
+    top: 200px;
+    left: 150px;
+  }
+  #box-bottom {
+    bottom: 130px;
+    right: 10px;
   }
 }
