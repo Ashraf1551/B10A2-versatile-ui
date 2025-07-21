@@ -175,6 +175,7 @@
   .nav-items {
     display: none;
   }
+
   .menu-icon {
     display: block;
     color: white;
@@ -185,13 +186,14 @@
   }
 
   #download-btn {
-    margin-left: none;
+    margin-left: 0;
   }
 
   #box-top {
     top: 200px;
     left: 150px;
   }
+
   #box-bottom {
     bottom: 130px;
     right: 10px;
